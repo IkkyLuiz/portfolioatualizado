@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialidades</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #222 0%, #555 100%);
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(90deg, blue 0%, #dd2476 100%);
+            color: #fff;
+            padding: 32px 0 24px 0;
+            text-align: center;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 24px rgba(221,36,118,0.15);
+        }
+        main {
+            max-width: 1000px;
+            margin: 48px auto;
+            background: white;
+            padding: 40px 32px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+        }
+        h2 {
+            color: #222;
+            margin-top: 0;
+            font-size: 2.2rem;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .especialidades-lista {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        .especialidade {
+            flex: 1 1 320px;
+            background: linear-gradient(135deg, blue 80%, white 0%);
+            border-radius: 14px;
+            padding: 28px 20px 36px 20px;
+            box-sizing: border-box;
+            min-width: 280px;
+            max-width: 340px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        .especialidade h3 {
+            margin-top: 0;
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 18px;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .carousel {
+            position: relative;
+            width: 100%;
+            min-height: 90px;
+        }
+        .carousel-content {
+            display: none;
+            color: white;
+            font-size: 1.08rem;
+            animation: fadeIn 0.5s;
+        }
+        .carousel-content.active {
+            display: block;
+        }
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 18px;
+        }
+        .carousel-btn {
+            background: blue;
+            border: none;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+        .carousel-btn:hover {
+            background: #ffd200;
+            color: #fff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px);}
+            to { opacity: 1; transform: translateY(0);}
+        }
+        @media (max-width: 900px) {
+            main { padding: 24px 8px; }
+            .especialidades-lista { gap: 18px; }
+            .especialidade { min-width: 220px; max-width: 100%; }
+        }
+        @media (max-width: 600px) {
+            .especialidades-lista { flex-direction: column; align-items: center; }
+            main { margin: 16px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minhas Especialidades</h1>
+    </header>
+    <main>
+        <h2>O que eu faço?</h2>
+        <div class="especialidades-lista">
+            <div class="especialidade">
+                <h3>Desenvolvimento Web</h3>
+                <div class="carousel" data-carousel>
+                    <div class="carousel-content active">
+                        Criação de sites responsivos, landing pages e aplicações web modernas utilizando HTML, CSS, JavaScript e frameworks.
+                    </div>
+                    <div class="carousel-content">
+                        Experiência com React, Vue, e integração com APIs RESTful.
+                    </div>
+                    <div class="carousel-content">
+                        Otimização de performance, SEO e acessibilidade para web.
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" data-prev>&lt;</button>
+                        <button class="carousel-btn" data-next>&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="especialidade">
+                <h3>Criação de E-commerce RH</h3>
+                <div class="carousel" data-carousel>
+                    <div class="carousel-content active">
+                        Desenvolvimento de lojas virtuais especializadas em produtos e soluções para Recursos Humanos, com integração e facilidade de gestão.
+                    </div>
+                    <div class="carousel-content">
+                        Integração com sistemas de pagamento, controle de estoque e relatórios personalizados.
+                    </div>
+                    <div class="carousel-content">
+                        Layouts modernos, responsivos e experiência de compra otimizada.
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" data-prev>&lt;</button>
+                        <button class="carousel-btn" data-next>&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="especialidade">
+                <h3>Criação de Blog de RH</h3>
+                <div class="carousel" data-carousel>
+                    <div class="carousel-content active">
+                        Desenvolvimento de blogs focados em Recursos Humanos, com conteúdos e dicas de carreira, divulgação de vagas de emprego, estágio e trainee, além de cursos de qualificação profissional.
+                    </div>
+                    <div class="carousel-content">
+                        Ferramentas de publicação fácil, SEO e integração com redes sociais.
+                    </div>
+                    <div class="carousel-content">
+                        Design atrativo, responsivo e personalizável para engajar leitores.
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" data-prev>&lt;</button>
+                        <button class="carousel-btn" data-next>&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        // Carrossel interativo para cada especialidade
+        document.querySelectorAll('[data-carousel]').forEach(carousel => {
+            const contents = carousel.querySelectorAll('.carousel-content');
+            let current = 0;
+            const show = idx => {
+                contents.forEach((el, i) => el.classList.toggle('active', i === idx));
+            };
+            carousel.querySelector('[data-prev]').onclick = () => {
+                current = (current - 1 + contents.length) % contents.length;
+                show(current);
+            };
+            carousel.querySelector('[data-next]').onclick = () => {
+                current = (current + 1) % contents.length;
+                show(current);
+            };
+        });
+    </script>
+</body>
+</html>

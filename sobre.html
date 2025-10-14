@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <style>
+    .profile-photo {
+        display: block;
+        margin: 0 auto 24px auto;
+        background-image: url('./images/pessoa.jpg');
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #a259ff55;
+        box-shadow: 0 4px 16px #a259ff22;
+    }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: url('./images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #222;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 700px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 40px 36px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(80, 0, 120, 0.12);
+            border: 2px solid #a259ff33;
+        }
+        h1 {
+            color: #4f8cff;
+            font-size: 2.6rem;
+            margin-bottom: 18px;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 8px #a259ff22;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 1.15rem;
+            color: #333;
+            margin-bottom: 18px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 8px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/pessoa.jpg" alt="Foto de perfil" class="profile-photo">
+        <h1>Sobre Mim</h1>
+        <p>
+            Olá! Meu nome é Luiz Henrique. Sou um <a href="https://app.onstrider.com/r/techluiz" target="_blank" style="color:#a259ff; text-decoration: none;"><strong>Tech Recruiter</strong></a> em transição de carreira para o universo <strong style="color:#4f8cff;">Front-End</strong>. Sou apaixonado por tecnologia e programação.
+            Tenho experiência em desenvolvimento web, especialmente com <strong style="color:#222;">HTML</strong>, <strong style="color:#222;">CSS</strong> e <strong style="color:#222;">JavaScript</strong>, com projetos pessoais.
+            Estou sempre em busca de novos desafios e aprendizados para aprimorar minhas habilidades e criar soluções inovadoras.
+        </p>
+        <p>
+            Neste portfólio, você encontrará alguns dos meus projetos e um pouco mais sobre minha trajetória profissional.
+        </p>
+
+        <hr style="margin:32px 0; border: none; border-top: 1.5px solid #a259ff33;">
+
+        <section>
+            <h2 style="color:#a259ff; margin-bottom:12px;">Certificados</h2>
+            <div class="image-gallery certificados-gallery">
+                <!-- Substitua os src abaixo pelas imagens dos seus certificados -->
+                <img src="./images/frontendSantander.jpg" alt="Santander 2025 - Front-End!">
+                <img src="./images/FrontendRiHappy.jpg" alt="Ri Happy - Front-End do Zero!">
+                <img src="./images/Angular.jpg" alt="Potência Tech Angular Developer - Powered by iFood!">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+            <style>
+                .certificados-gallery img {
+                    width: 180px;
+                    height: 130px;
+                }
+                @media (max-width: 600px) {
+                    .certificados-gallery img {
+                        width: 120px;
+                        height: 90px;
+                    }
+                }
+            </style>
+        </section>
+
+        <hr style="margin:32px 0; border: none; border-top: 1.5px solid #a259ff33;">
+
+        <section>
+            <h2 style="color:#a259ff; margin-bottom:12px;">Conquistas</h2>
+            <div class="image-gallery">
+                <!-- Substitua os src abaixo pelas imagens das suas conquistas -->
+                <img src="./images/ganher.jpg" alt="Melhor Artigo do Mês">
+                <img src="./images/melhorartigodotrimestre.jpg" alt="Melhor Artigo do Trimestre">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+        </section>
+    </div>
+
+    <style>
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+        .image-gallery img {
+            width: 140px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #a259ff33;
+            box-shadow: 0 2px 8px #a259ff22;
+            background: #f5f5f5;
+        }
+        @media (max-width: 600px) {
+            .image-gallery img {
+                width: 100px;
+                height: 70px;
+            }
+        }
+    </style>
+</body>
+</html>
