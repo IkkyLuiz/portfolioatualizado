@@ -8,7 +8,7 @@ Sou um desenvolvedor em transição de carreira, atualmente atuando como **Tech 
 
 Aqui estão algumas das linguagens, frameworks e ferramentas com as quais venho trabalhando:
 
-- **Linguagens**: C#, .NET, Python, CSS, JavaScript  
+- **Linguagens**: Python, JavaScript, TypeScript e PHP  
 - **Frameworks / Ferramentas**: Angular, Bootstrap, React  
 - **Outras habilidades**: Git e GitHub, testes, consumo de APIs REST, banco de dados relacional e não relacional, boas práticas de código  
 - **Em aprendizado / estudo atual**: criação de Agentes de IA
