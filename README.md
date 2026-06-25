@@ -2,7 +2,7 @@
 
 Sou um desenvolvedor em transição de carreira, atualmente atuando como **Tech Recruiter**, com foco crescente no universo **Front-End**. Tenho paixão por aprender, resolver problemas e aplicar meus conhecimentos em projetos reais e úteis.
 
----
+
 
 ## 🛠 Tecnologias & Habilidades
 
@@ -13,7 +13,7 @@ Aqui estão algumas das linguagens, frameworks e ferramentas com as quais venho 
 - **Outras habilidades**: Git e GitHub, testes, consumo de APIs REST, banco de dados relacional e não relacional, boas práticas de código  
 - **Em aprendizado / estudo atual**: criação de Agentes de IA
 
----
+
 
 ## 📂 Projetos em destaque
 
@@ -29,7 +29,7 @@ Alguns projetos que considero relevantes — veja mais no meu perfil!
 
 > ⚠️ Estes são apenas alguns exemplos — veja todos os meus projetos [aqui](https://github.com/IkkyLuiz?tab=repositories).
 
----
+
 
 ## 🚀 Como executar meus projetos localmente
 
@@ -37,7 +37,7 @@ Alguns projetos que considero relevantes — veja mais no meu perfil!
 
    ```bash
    git clone https://github.com/IkkyLuiz/<nome-do-projeto>.git
-````
+
 
 2. Acesse a pasta do projeto:
 
@@ -68,7 +68,7 @@ Alguns projetos que considero relevantes — veja mais no meu perfil!
 Fique à vontade para entrar em contato:
 
 [LinkedIn](https://www.linkedin.com/in/adm-luiz-henrique-fc/)
-[Instagram](https://www.instagram.com/castcoffeebr/)
+[Instagram](https://www.instagram.com/lucaupdev/)
 
  🧾 Outras informações
 
@@ -76,10 +76,8 @@ Fique à vontade para entrar em contato:
 * Entusiasta de tecnologia e aprendizado contínuo
 * Este portfólio será atualizado com novos projetos, estudos e ideias
 
----
-
 Obrigado por visitar meu portfólio! 😊
 
----
+
 
 
